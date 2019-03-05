@@ -1,4 +1,17 @@
 body {
-    background-color:purple;
-    
+    background-color: purple;
 }
+nav{
+    text-transform: uppercase;
+    font-family: 'Srisakdi', cursive;
+}
+
+header {
+    background-image: url(https://www.workingmother.com/sites/workingmother.com/files/styles/1000_1x_/public/images/2017/11/fairygodboss_daycare.jpg?itok=8wUNsuyC&fc=48,32);
+    text-align: center;
+    height: 600px;
+    background: cover;
+}
+ head p {
+     font-style: italic;
+ }
