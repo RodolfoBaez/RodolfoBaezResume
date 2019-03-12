@@ -1,17 +1,35 @@
-body {
-    background-color: purple;
-}
-nav{
+navbar {
     text-transform: uppercase;
-    font-family: 'Srisakdi', cursive;
+   
 }
 
-header {
-    background-image: url(https://www.workingmother.com/sites/workingmother.com/files/styles/1000_1x_/public/images/2017/11/fairygodboss_daycare.jpg?itok=8wUNsuyC&fc=48,32);
+body {
+    background-image: url(https://www.hdwallpaper.nu/wp-content/uploads/2016/07/toy_story_wallpaper29985.jpg );
     text-align: center;
     height: 600px;
     background: cover;
+    
 }
  head p {
      font-style: italic;
  }
+ 
+ .service i {
+    font-size: 30px;
+    padding: 25px 20px;
+    color:#F9B109;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+     
+ }
+ .service i span{
+     width: 200px;
+     display: inline-block;
+}
+
+ .team image {
+   border-radius: 50%;
+  
+}
+   
