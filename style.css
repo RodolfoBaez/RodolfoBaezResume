@@ -27,9 +27,59 @@ body {
      width: 200px;
      display: inline-block;
 }
-
- .team image {
+ .team img {
    border-radius: 50%;
   
 }
-   
+ .rows {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+.price {
+  list-style-type: none;
+  border: 1px solid #20fffb;
+  padding: 0;
+}
+
+.price .header {
+  background-color: #7cff4d;
+  color: red;
+  font-size: 20px;
+}
+
+.price li {
+  padding: 20px;
+  text-align: center;
+  background-color: #7cff4d;
+}
+
+.price .grey {
+  background-color: #f97eff;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: red;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contacts .input-group{
+    margin-bottom: 10px;
+    background-color:#8777ff;
+    border-radius: 50px;
+}
+.contacts i {
+     padding: 17px;
+
+}
+
+footer {
+      background-color:#030303;
+    
+}
