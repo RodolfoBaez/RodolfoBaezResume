@@ -1,3 +1,4 @@
+/* css for navbar */
 .name{
     float: left;
     padding-left: 150px;
@@ -135,7 +136,7 @@ img:hover {
 
 .about p{
     float: left;
-    width:600px;
+    width:900px;
     font-family: 'PT Serif', serif;
     opacity: 0.7;
 }
@@ -456,7 +457,7 @@ footer hr{
 }
 
 .about{
-    margin-left: 150px;
+    margin-left:150px;
 }
 
 .team-section{
