@@ -114,11 +114,22 @@
 }
 
 /*this is the css for my transcip*/
+@media screen and (max-width: 2000px) {
 #reportcard {
   background-image: url("giphy.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+    #reportcard{
+    	background-image: url(logo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 }
 
 .grades {
@@ -164,11 +175,21 @@
   transform: rotate(360deg) scale(0.8);
 }
 
+@media screen and (max-width: 2000px) {
 #program {
   background-image: url("blake2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 850px) {
+    #program{
+    	background-image: url("blake2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 }
 
 #program h1 {
