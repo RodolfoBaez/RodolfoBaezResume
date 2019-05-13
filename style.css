@@ -98,7 +98,7 @@
 
 @media screen and (max-width: 850px) {
     #backgroundofhello{
-    	background-image: url(newbackground.jpg);
+    	background-image: url("newbackground.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -126,7 +126,7 @@
 
 @media screen and (max-width: 850px) {
     #reportcard{
-    	background-image: url(newbackground.jpg);
+    	background-image: url("newbackground.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     }
