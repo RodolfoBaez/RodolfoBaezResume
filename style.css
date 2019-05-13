@@ -186,7 +186,7 @@
 
 @media screen and (max-width: 850px) {
     #program{
-    	background-image: url("n2.jpg");
+    	background-image: url("newbackground.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     }
