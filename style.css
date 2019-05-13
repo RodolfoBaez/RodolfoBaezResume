@@ -87,11 +87,21 @@
   transform: rotate(360deg) scale(0.8);
 }
 
+@media screen and (max-width: 2000px) {
 #backgroundofhello {
   background-image: url("ShinyPlushEmperorpenguin-small.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    #backgroundofhello{
+    	background-image: url(logo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 }
 
 /*this is the css for my work*/
