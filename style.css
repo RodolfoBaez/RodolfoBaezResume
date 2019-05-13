@@ -98,7 +98,7 @@
 
 @media screen and (max-width: 850px) {
   #backgroundofhello {
-    background-image: url("ShinyPlushEmperorpenguin-small.gif");
+    background-image: url("newbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -125,7 +125,7 @@
 
 @media screen and (max-width: 850px) {
   #reportcard {
-    background-image: url("giphy.gif");
+    background-image: url("newbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -185,7 +185,7 @@
 
 @media screen and (max-width: 850px) {
   #program {
-    background-image: url("blake2.jpg");
+    background-image: url("newbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
