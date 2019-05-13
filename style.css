@@ -1,272 +1,262 @@
+.fa-anchor, .fa-coffee {
+  font-size: 200px
+}
 
-.fa-anchor,.fa-coffee {font-size:200px}
 /*this is the css for black image of me*/
-#mypic img{
-     float: left;
-     border:  solid lightblue;
-     border-radius:50%;
-     margin-left:50px;
-     margin-bottom:25px;
-     height: 256px;
-     width: 256px;
-      filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
-   -webkit-filter: grayscale(100%);
-   -moz-filter: grayscale(100%);
-   -ms-filter: grayscale(100%);
-   filter: grayscale(100%);
-   filter: gray; /* IE 6-9 */
-
+#mypic img {
+  float: left;
+  border: solid lightblue;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  height: 256px;
+  width: 256px;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  /* Firefox 10+, Firefox on Android */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  /* IE 6-9 */
 }
 
 #mypic img:hover {
-   -webkit-filter: none;
-   -moz-filter: none;
-   -ms-filter: none;
-   filter: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 /*this is the css for opening for a bit about me*/
-#aboutme h1{
-    font-family: 'Libre Baskerville', serif;
-    color:purple;
-
+#aboutme h1 {
+  font-family: 'Libre Baskerville', serif;
+  color: purple;
 }
 
 /*this is the css for opening for hello buttons*/
-.border{
-    display: block;
-    margin:auto ;
-    width: 160px;
-    height: 3px;
-    background-color: #96020f;
-    margin-bottom:40px;
+.border {
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  background-color: #96020f;
+  margin-bottom: 40px;
 }
 
-.ps{
-    margin-bottom: 40px;
+.ps {
+  margin-bottom: 40px;
 }
 
 .section {
-    height: 0;
-    overflow:hidden;
-
+  height: 0;
+  overflow: hidden;
 }
 
-.section:target{
-    height:auto;
-
+.section:target {
+  height: auto;
 }
 
 /*this is the css for the first of galaxie section*/
-.w3-margin{
-    font-family: 'Libre Baskerville', serif;
-   -webkit-text-stroke: 1px black;
-   color: white;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+.w3-margin {
+  font-family: 'Libre Baskerville', serif;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-.ps button{
-    font-family: 'Libre Baskerville', serif;
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    background-color:#593cc2;
-    text-transform: uppercase;
-    opacity:0.8;
-    color:white;
+.ps button {
+  font-family: 'Libre Baskerville', serif;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background-color: #593cc2;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: white;
 }
 
 .ps button:hover {
   opacity: 2;
   transition: all 300ms;
-  transform: rotate(360deg) scale(0.8) ;
-
-
+  transform: rotate(360deg) scale(0.8);
 }
-#backgroundofhello{
-    background-image: url("ShinyPlushEmperorpenguin-small.gif");
-     background-repeat: no-repeat;
-     background-size: cover;
+
+#backgroundofhello {
+  background-image: url("ShinyPlushEmperorpenguin-small.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*this is the css for my work*/
-#p1 h1{font-family: 'Libre Baskerville', serif;
-
+#p1 h1 {
+  font-family: 'Libre Baskerville', serif;
 }
 
-#honor{
-    margin-left: 14px;
+#honor {
+  margin-left: 14px;
 }
 
 /*this is the css for my transcip*/
-#reportcard{
-     background-image: url("giphy.gif");
-     background-repeat: no-repeat;
-     background-size: cover;
-
+#reportcard {
+  background-image: url("giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.grades{
-    margin-bottom: 40px;
+.grades {
+  margin-bottom: 40px;
 }
 
-.grades button{
-    font-family: 'Libre Baskerville', serif;
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    background-color:#e5b9ff;
-    text-transform: uppercase;
-    opacity:0.8;
-    color:white;
+.grades button {
+  font-family: 'Libre Baskerville', serif;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background-color: #e5b9ff;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: white;
 }
-
 
 .grades button:hover {
   opacity: 2;
   transition: all 300ms;
-  transform: rotate(360deg) scale(0.8) ;
+  transform: rotate(360deg) scale(0.8);
 }
 
 /*this is the css for the projects*/
-
-#afterschool p{
-     font-family: 'Source Sans Pro', sans-serif;
-}
-.programs button{
-    font-family: 'Libre Baskerville', serif;
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    background-color:#7768ff;
-    text-transform: uppercase;
-    opacity:0.8;
-    color:white;
+#afterschool p {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
+.programs button {
+  font-family: 'Libre Baskerville', serif;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background-color: #7768ff;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: white;
+}
 
 .programs button:hover {
   opacity: 2;
   transition: all 300ms;
-  transform: rotate(360deg) scale(0.8) ;
+  transform: rotate(360deg) scale(0.8);
 }
 
-#program{
-     background-image: url("blake2.jpg");
-     background-repeat: no-repeat;
-     background-size: cover;
-
+#program {
+  background-image: url("blake2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-#program h1{
-    font-family: 'Libre Baskerville', serif;
-   -webkit-text-stroke: 1px black;
-   color: white;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+#program h1 {
+  font-family: 'Libre Baskerville', serif;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-#blake{
-    margin-top: 50px;
+#blake {
+  margin-top: 50px;
 }
 
-#p6 img{
-    margin-top: 120px;
-
+#p6 img {
+  margin-top: 120px;
 }
+
 /*this is the css for the education*/
-
 #title {
-    font-family: 'Libre Baskerville', serif;
-   -webkit-text-stroke: 1px black;
-   color: white;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+  font-family: 'Libre Baskerville', serif;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-#logo img{
-    width:250px;
-    margin-bottom:50px;
+#logo img {
+  width: 250px;
+  margin-bottom: 50px;
 }
 
-#compare{
-    margin-top:40px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:20px;
-    opacity: 0.8;
+#compare {
+  margin-top: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  opacity: 0.8;
 }
 
-
-#compare h1{
-    font-family: 'Source Sans Pro', sans-serif;
-
+#compare h1 {
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
 /*this is the css for the contact*/
-#contact img{
-     margin-top: 63px;
+#contact img {
+  margin-top: 63px;
 }
 
-#contact h1{
-    font-family: 'Libre Baskerville', serif;
-    -webkit-text-stroke: 1px black;
-    font-size: 40px;
-    color:white;
-
-
+#contact h1 {
+  font-family: 'Libre Baskerville', serif;
+  -webkit-text-stroke: 1px black;
+  font-size: 40px;
+  color: white;
 }
 
-#contact button{
-    font-family: 'Libre Baskerville', serif;
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    text-transform: uppercase;
-    opacity:0.8;
-    color:white;
-    background-image: url("ShinyPlushEmperorpenguin-small.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
+#contact button {
+  font-family: 'Libre Baskerville', serif;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: white;
+  background-image: url("ShinyPlushEmperorpenguin-small.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #contact button:hover {
   transition: 2s;
-  transform:  scale(1.1) ;
-
-
+  transform: scale(1.1);
 }
-#contact{
-    font-family: 'Libre Baskerville', serif;
-    margin-bottom: 40px;
+
+#contact {
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 40px;
 }
 
 /*this is the css for the footer*/
-
-footer button{
-    font-family: 'Libre Baskerville', serif;
-    height: 160px;
-    width: 160px;
-    text-transform: uppercase;
-    opacity:0.8;
-    color:white;
-
+footer button {
+  font-family: 'Libre Baskerville', serif;
+  height: 160px;
+  width: 160px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: white;
 }
 
 footer button:hover {
   transition: 2s;
-  transform:  scale(1.2) ;
-
-
+  transform: scale(1.2);
 }
