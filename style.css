@@ -90,7 +90,7 @@
 #backgroundofhello {
   background-image: url("ShinyPlushEmperorpenguin-small.gif");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -107,7 +107,7 @@
 #reportcard {
   background-image: url("giphy.gif");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -157,8 +157,8 @@
 #program {
   background-image: url("blake2.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-    background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #program h1 {
@@ -232,7 +232,7 @@
   color: white;
   background-image: url("ShinyPlushEmperorpenguin-small.gif");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 
